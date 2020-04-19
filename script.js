@@ -1,10 +1,11 @@
 
-function number (userInput) {
+
+const user = (userInput) => {
   let arrayOfNumbers = [];
   let present;
   for (let x = 1; x <= userInput; x++) {
     if (x % 2 === 0 && x % 3 === 0 && x % 5 === 0) {
-      present.push = "yu-gi-oh";
+      present = "yu-gi-oh";
     } else if (x % 2 === 0 && x % 3 === 0) {
       present = "yu-gi";
     } else if (x % 2 === 0 && x % 5 === 0) {
@@ -25,3 +26,4 @@ function number (userInput) {
   console.log(arrayOfNumbers);
   return arrayOfNumbers;
 };
+user(20);
